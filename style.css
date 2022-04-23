@@ -86,6 +86,7 @@ body{
     justify-content: space-evenly;
     margin: 25px 75px;
     flex: auto;
+    flex-wrap:wrap;
 }
 .card{
     width: 200px;
