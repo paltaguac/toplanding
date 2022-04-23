@@ -66,11 +66,48 @@ body{
     max-height: 230px;
 }
 /* 3 Middle section */
-
-
-
-
-
+.main{
+    display: flex;
+    background-color: white;
+    flex: auto;
+    margin: 0 -100px;
+    flex-direction: column;
+}
+.main-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    flex: auto;
+    margin: 25px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 75px;
+    flex: auto;
+}
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.img-card{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: #3882F6 2px solid;
+}
+.card-text{
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+/* 4 Quote */
 
 
 
