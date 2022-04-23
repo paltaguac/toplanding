@@ -16,6 +16,8 @@ body{
 }
 .header-logo{
     padding: 10px;
+    font-size: 24px;
+    color:#F9FAF8;
 }
 .right-links{
     margin-left: auto;
