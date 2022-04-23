@@ -108,8 +108,28 @@ body{
     font-size: 18px;
 }
 /* 4 Quote */
-
-
+.quote-container{
+    display: flex;
+    background-color: #E5E7EB;
+    margin: 0 -100px;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+q{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+    padding: 100px;
+}
+.author{
+    color: #1F2937;
+    font-weight: bold;
+    margin: -90px auto 100px auto;
+    font-size: 18px;
+}
 
 
 /*Universal*/
