@@ -131,10 +131,35 @@ q{
     font-size: 18px;
 }
 /* 5 Ad */
-.ad-container{
+.ad-wrapper{
     display: flex;
     background-color: white;
+    margin: 0px -100px;
+    padding: 100px;
+    align-content: center;
+    justify-content: center;
 }
+.ad-container{
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+.left-ad{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    text-align: start;
+}
+.right-ad{
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+}
+
+
+
 /* 6 */
 footer{
     margin-top: auto;
