@@ -5,6 +5,10 @@ body{
     flex-direction: column;
     font-family: sans-serif;
 }
+.wrapper{
+    padding: 0 100px;
+    background-color:#1F2937;
+}
 /* 1 Nav section */
 .nav{
     background-color: #1F2937;
