@@ -50,8 +50,20 @@ body{
     box-shadow: none;
     font-weight: bold;
 }
-
-
+.left-header{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.right-header{
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+}
+.header-image{
+    max-width: 900px;
+    max-height: 250px;
+}
 
 
 
