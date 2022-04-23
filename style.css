@@ -135,7 +135,7 @@ q{
     display: flex;
     background-color: white;
     margin: 0px -100px;
-    padding: 100px;
+    padding: 72px;
     align-content: center;
     justify-content: center;
 }
@@ -144,6 +144,7 @@ q{
     background-color: #3882F6;
     padding: 50px;
     border-radius: 5px;
+    gap: 24px;
 
 }
 .left-ad{
@@ -152,12 +153,27 @@ q{
     flex-direction: column;
     text-align: start;
 }
+.ad-title{
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.ad-text{
+    font-size: 12px;
+}
 .right-ad{
     display: flex;
-    flex: auto;
+    flex: 1 0 auto;
     justify-content: flex-end;
 }
-
+.ad-button{
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: #F9FAF8 1px solid;
+    color: white;
+}
 
 
 /* 6 */
