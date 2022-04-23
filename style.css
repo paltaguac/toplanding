@@ -130,14 +130,12 @@ q{
     margin: -90px auto 100px auto;
     font-size: 18px;
 }
-
-
-/*Universal*/
-a, .text{
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
+/* 5 Ad */
+.ad-container{
+    display: flex;
+    background-color: white;
 }
+/* 6 */
 footer{
     margin-top: auto;
     display: flex;
@@ -146,4 +144,11 @@ footer{
     height: 72px;
     background-color: #1F2937;
     color: #E5E7EB;
+}
+
+/* Universal */
+a, .text{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
