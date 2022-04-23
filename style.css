@@ -3,8 +3,23 @@ body{
     margin:0;
     display: flex;
     flex-direction: column;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
+/* 1 Nav section */
+.nav{
+    background-color: #1F2937;
+    display: flex;
+}
+.header-logo{
+    padding: 10px;
+}
+.right-links{
+    margin-left: auto;
+    padding: 10px;
+    gap: 10px;
+}
+/* 2 Top section */
+
 
 
 
